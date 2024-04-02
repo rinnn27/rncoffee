@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.medsos{
+    padding: 8px 0;
+    background-color: rgb(250, 203, 122);
+}
+.medsos ul li{
+    display: inline-block;
+    color: black;
+}
+.medsos ul li a{
+    margin-left: 5px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+header h1{
+    float: left;
+    padding: 15px 0;
+    text-align: center;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: rgb(250, 214, 159);
+    color: black;
+}
+.active{
+    background-color: rgb(250, 214, 159);
+    color: black;
+}
+header h1{
+    float: left;
+    padding: 15px 0;
+    text-align: center;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 15px 15px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: rgb(250, 214, 159);
+    color: #fff;
+}
+.active{
+    background-color: rgb(250, 214, 159);
+    color: #fff;
+}
+.banner{
+        height: 90vh;
+        border:1px solid;
+        background-image: url(cafe1.jpg);
+        background-clip: cover;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+}  
+.banner:after{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0%;
+    bottom: 0;
+    background-color: rgba(243, 171, 64, 0.452);
+}
+.banner h2{
+    color: rgb(14, 0, 0);
+    z-index: 1;
+    padding: 20px 15px;
+    border: 3px solid rgb(250, 214, 159);
+}
+section{
+    padding: 200px 180px;
+}
+.location{
+    margin-top: 0.1%;
+    background-color: rgba(250, 203, 122);
+}
+.minuman{
+    background-color: rgba(250, 203, 122);
+    margin-top: 0.1%;
+}
+.makanan{
+    background-color: rgba(250, 203, 122);
+    margin-top: 0.1%;
+}
+.contact{
+    background-color: rgba(250, 203, 122);
+    margin-top: 0.1%;
+}
